@@ -1623,13 +1623,13 @@
   <!-- Help -->
   <screen name="HelpMenu" position="fill" flags="wfNoBorder">
     <panel name="PigTemplate" />
-    <widget name="list" position="780,100" size="855,912" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand" />
+    <widget name="list" position="780,100" size="850,912" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand" />
     <widget name="rc" position="1659,105" size="231,750" zPosition="10" pixmaps="rc.png,rcold.png" alphatest="on" />
     <widget name="arrowdown" pixmap="arrowdown.png" position="-150,-150" size="55,105" zPosition="11" alphatest="on" />
     <widget name="arrowdown2" pixmap="arrowdown.png" position="-150,-150" size="55,105" zPosition="11" alphatest="on" />
     <widget name="arrowup" pixmap="arrowup.png" position="-150,-150" size="55,105" zPosition="11" alphatest="on" />
     <widget name="arrowup2" pixmap="arrowup.png" position="-150,-150" size="55,105" zPosition="11" alphatest="on" />
-    <widget name="long_key" position="1590,922" size="375,30" foregroundColor="yellow" font="Regular;24" halign="center" />
+    <widget name="long_key" position="1635,922" size="280,30" foregroundColor="yellow" font="Regular;24" halign="center" />
   </screen>
   <!-- PPanel -->
   <screen flags="wfNoBorder" name="ToplevelPPanel" position="fill" title="Toplevel PPanel">
