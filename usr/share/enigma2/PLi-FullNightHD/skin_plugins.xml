@@ -1498,7 +1498,7 @@
     <widget render="Label" source="weekday5" position="1133,476" zPosition="1" size="225,70" halign="center" valign="center" font="Regular;28" transparent="1" />
     <widget name="weekday5_icon" position="1168,580" zPosition="1" size="150,150" alphatest="blend" />
     <widget render="Label" source="weekday5_temp" position="1133,706" zPosition="1" size="225,117" halign="center" valign="bottom" font="Regular;28" transparent="1" />
-    <ePixmap pixmap="/buttons/key_menu.png" zPosition="2" position="25,25" size="54,34" alphatest="on" transparent="1" />
+    <ePixmap pixmap="buttons/key_menu.png" zPosition="2" position="25,25" size="52,38" alphatest="blend" transparent="1" />
   </screen>
   <screen name="MSNWeatherPluginEntriesListConfigScreen" position="center,center" size="950,800">
     <widget render="Label" source="city" position="15,70" size="700,50" font="Regular;28" halign="left" />
