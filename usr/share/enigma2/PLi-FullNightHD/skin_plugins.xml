@@ -1472,37 +1472,37 @@
     <widget name="config" position="780,105" size="1110,874" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand" />
   </screen>
   <!-- MSN Weather -->
-  <screen name="MSNWeatherPlugin" position="center,center" size="1398,870" title="Weather Plugin">
-    <eLabel text="Current Weather" position="190,241" zPosition="1" size="470,40" halign="left" valign="center" font="Regular; 32" transparent="1" />
+  <screen name="MSNWeatherPlugin" position="261,105" size="1398,870" title="Weather Plugin">
+    <eLabel text="Current Weather" position="10,231" zPosition="1" size="570,40" halign="right" valign="center" font="Regular; 32" transparent="1" />
     <widget render="Label" source="caption" position="25,80" zPosition="1" size="780,58" font="Regular;35" transparent="1" />
-    <widget render="Label" source="observationtime" position="910,41" zPosition="1" size="460,40" font="Regular;30" transparent="1" halign="right" />
+    <widget render="Label" source="observationtime" position="810,41" zPosition="1" size="560,40" font="Regular;30" transparent="1" halign="right" />
     <widget render="Label" source="observationpoint" position="810,93" zPosition="1" size="560,110" font="Regular;30" transparent="1" halign="right" />
-    <widget name="currenticon" position="26,220" zPosition="1" size="150,150" alphatest="blend" />
-    <widget render="Label" source="currentTemp" position="192,286" zPosition="1" size="200,40" font="Regular; 32" transparent="1" />
-    <widget render="Label" source="feelsliketemp" position="192,330" zPosition="1" size="470,40" font="Regular;32" transparent="1" />
-    <widget render="Label" source="condition" position="670,241" zPosition="1" size="700,40" font="Regular;32" transparent="1" />
-    <widget render="Label" source="wind_condition" position="670,286" zPosition="1" size="700,40" font="Regular;32" transparent="1" />
-    <widget render="Label" source="humidity" position="670,330" zPosition="1" size="700,40" font="Regular;32" valign="bottom" transparent="1" />
-    <widget render="Label" source="weekday1" position="35,476" zPosition="1" size="225,70" halign="center" valign="center" font="Regular;28" transparent="1" />
-    <widget name="weekday1_icon" position="71,580" zPosition="1" size="150,150" alphatest="blend" />
+    <widget name="currenticon" position="622,230" zPosition="1" size="150,150" alphatest="blend" />
+    <widget render="Label" source="currentTemp" position="10,276" zPosition="1" size="570,40" font="Regular; 32" transparent="1" halign="right" />
+    <widget render="Label" source="feelsliketemp" position="10,320" zPosition="1" size="570,40" font="Regular;32" transparent="1" halign="right" />
+    <widget render="Label" source="condition" position="820,231" zPosition="1" size="570,40" font="Regular;32" transparent="1" />
+    <widget render="Label" source="wind_condition" position="820,276" zPosition="1" size="570,40" font="Regular;32" transparent="1" />
+    <widget render="Label" source="humidity" position="820,320" zPosition="1" size="570,40" font="Regular;32" valign="bottom" transparent="1" />
+    <widget render="Label" source="weekday1" position="35,475" zPosition="1" size="225,70" halign="center" valign="center" font="Regular;28" transparent="1" />
+    <widget name="weekday1_icon" position="72,580" zPosition="1" size="150,150" alphatest="blend" />
     <widget render="Label" source="weekday1_temp" position="35,706" zPosition="1" size="225,117" halign="center" valign="bottom" font="Regular;28" transparent="1" />
-    <widget render="Label" source="weekday2" position="308,476" zPosition="1" size="225,70" halign="center" valign="center" font="Regular;28" transparent="1" />
-    <widget name="weekday2_icon" position="344,580" zPosition="1" size="150,150" alphatest="blend" />
-    <widget render="Label" source="weekday2_temp" position="308,706" zPosition="1" size="225,117" halign="center" valign="bottom" font="Regular;28" transparent="1" />
-    <widget render="Label" source="weekday3" position="593,476" zPosition="1" size="225,70" halign="center" valign="center" font="Regular;28" transparent="1" />
-    <widget name="weekday3_icon" position="628,580" zPosition="1" size="150,150" alphatest="blend" />
-    <widget render="Label" source="weekday3_temp" position="593,706" zPosition="1" size="225,117" halign="center" valign="bottom" font="Regular;28" transparent="1" />
-    <widget render="Label" source="weekday4" position="864,476" zPosition="1" size="225,70" halign="center" valign="center" font="Regular;28" transparent="1" />
-    <widget name="weekday4_icon" position="900,580" zPosition="1" size="150,150" alphatest="blend" />
-    <widget render="Label" source="weekday4_temp" position="864,706" zPosition="1" size="225,117" halign="center" valign="bottom" font="Regular;28" transparent="1" />
-    <widget render="Label" source="weekday5" position="1133,476" zPosition="1" size="225,70" halign="center" valign="center" font="Regular;28" transparent="1" />
-    <widget name="weekday5_icon" position="1168,580" zPosition="1" size="150,150" alphatest="blend" />
-    <widget render="Label" source="weekday5_temp" position="1133,706" zPosition="1" size="225,117" halign="center" valign="bottom" font="Regular;28" transparent="1" />
+    <widget render="Label" source="weekday2" position="310,475" zPosition="1" size="225,70" halign="center" valign="center" font="Regular;28" transparent="1" />
+    <widget name="weekday2_icon" position="347,580" zPosition="1" size="150,150" alphatest="blend" />
+    <widget render="Label" source="weekday2_temp" position="310,706" zPosition="1" size="225,117" halign="center" valign="bottom" font="Regular;28" transparent="1" />
+    <widget render="Label" source="weekday3" position="585,475" zPosition="1" size="225,70" halign="center" valign="center" font="Regular;28" transparent="1" />
+    <widget name="weekday3_icon" position="622,580" zPosition="1" size="150,150" alphatest="blend" />
+    <widget render="Label" source="weekday3_temp" position="585,706" zPosition="1" size="225,117" halign="center" valign="bottom" font="Regular;28" transparent="1" />
+    <widget render="Label" source="weekday4" position="860,475" zPosition="1" size="225,70" halign="center" valign="center" font="Regular;28" transparent="1" />
+    <widget name="weekday4_icon" position="897,580" zPosition="1" size="150,150" alphatest="blend" />
+    <widget render="Label" source="weekday4_temp" position="860,706" zPosition="1" size="225,117" halign="center" valign="bottom" font="Regular;28" transparent="1" />
+    <widget render="Label" source="weekday5" position="1135,475" zPosition="1" size="225,70" halign="center" valign="center" font="Regular;28" transparent="1" />
+    <widget name="weekday5_icon" position="1172,580" zPosition="1" size="150,150" alphatest="blend" />
+    <widget render="Label" source="weekday5_temp" position="1135,706" zPosition="1" size="225,117" halign="center" valign="bottom" font="Regular;28" transparent="1" />
     <ePixmap pixmap="buttons/key_menu.png" zPosition="2" position="25,25" size="52,38" alphatest="blend" transparent="1" />
   </screen>
   <screen name="MSNWeatherPluginEntriesListConfigScreen" position="center,center" size="950,800">
-    <widget render="Label" source="city" position="15,70" size="700,50" font="Regular;28" halign="left" />
-    <widget render="Label" source="degreetype" position="733,70" size="200,50" font="Regular;28" halign="left" />
+    <widget render="Label" source="city" position="25,70" size="600,50" font="Regular;28" halign="left" />
+    <widget render="Label" source="degreetype" position="643,70" size="280,50" font="Regular;28" halign="left" />
     <widget name="entrylist" position="25,125" size="900,650" scrollbarMode="showOnDemand" />
     <widget render="Label" source="key_red" position="20,10" size="200,40" zPosition="5" valign="center" halign="center" backgroundColor="red" font="Regular;28" transparent="1" foregroundColor="white" shadowColor="black" shadowOffset="-1,-1" />
     <widget render="Label" source="key_green" position="260,10" size="200,40" zPosition="5" valign="center" halign="center" backgroundColor="green" font="Regular;28" transparent="1" foregroundColor="white" shadowColor="black" shadowOffset="-1,-1" />
