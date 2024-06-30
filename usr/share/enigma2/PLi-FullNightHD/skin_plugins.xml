@@ -1473,16 +1473,16 @@
   </screen>
   <!-- MSN Weather -->
   <screen name="MSNWeatherPlugin" position="center,center" size="1398,870" title="Weather Plugin">
-    <eLabel text="Current Weather" position="10,231" zPosition="1" size="570,40" halign="right" valign="center" font="Regular; 32" transparent="1" />
-    <widget render="Label" source="caption" position="25,80" zPosition="1" size="780,58" font="Regular;35" transparent="1" />
-    <widget render="Label" source="observationtime" position="810,41" zPosition="1" size="560,40" font="Regular;30" transparent="1" halign="right" />
-    <widget render="Label" source="observationpoint" position="810,93" zPosition="1" size="560,110" font="Regular;30" transparent="1" halign="right" />
-    <widget name="currenticon" position="622,230" zPosition="1" size="150,150" alphatest="blend" />
-    <widget render="Label" source="currentTemp" position="10,276" zPosition="1" size="570,40" font="Regular; 32" transparent="1" halign="right" />
-    <widget render="Label" source="feelsliketemp" position="10,320" zPosition="1" size="570,40" font="Regular;32" transparent="1" halign="right" />
-    <widget render="Label" source="condition" position="820,231" zPosition="1" size="570,40" font="Regular;32" transparent="1" />
-    <widget render="Label" source="wind_condition" position="820,276" zPosition="1" size="570,40" font="Regular;32" transparent="1" />
-    <widget render="Label" source="humidity" position="820,320" zPosition="1" size="570,40" font="Regular;32" valign="bottom" transparent="1" />
+    <eLabel text="Current Weather" position="0,145" zPosition="1" size="1400,40" halign="center" valign="center" font="Regular; 32" transparent="1" />
+    <widget render="Label" source="caption" position="97,22" zPosition="1" size="1200,50" font="Regular; 40" transparent="1" halign="center" />
+    <widget render="Label" source="observationtime" position="0,90" zPosition="1" size="1400,40" font="Regular; 32" transparent="1" halign="center" />
+    <widget render="Label" source="observationpoint" position="0,405" zPosition="1" size="1400,40" font="Regular; 32" transparent="1" halign="center" />
+    <widget name="currenticon" position="622,200" zPosition="1" size="150,150" alphatest="blend" />
+    <widget render="Label" source="currentTemp" position="860,215" zPosition="1" size="540,40" font="Regular; 32" transparent="1" halign="left" />
+    <widget render="Label" source="feelsliketemp" position="860,280" zPosition="1" size="540,40" font="Regular;32" transparent="1" halign="left" />
+    <widget render="Label" source="condition" position="0,215" zPosition="1" size="540,40" font="Regular;32" transparent="1" halign="right" />
+    <widget render="Label" source="wind_condition" position="0,280" zPosition="1" size="540,40" font="Regular;32" transparent="1" halign="right" />
+    <widget render="Label" source="humidity" position="0,350" zPosition="1" size="1400,40" font="Regular;32" valign="bottom" transparent="1" halign="center" />
     <widget render="Label" source="weekday1" position="35,475" zPosition="1" size="225,70" halign="center" valign="center" font="Regular;28" transparent="1" />
     <widget name="weekday1_icon" position="72,580" zPosition="1" size="150,150" alphatest="blend" />
     <widget render="Label" source="weekday1_temp" position="35,706" zPosition="1" size="225,117" halign="center" valign="bottom" font="Regular;28" transparent="1" />
